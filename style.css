@@ -1,0 +1,92 @@
+/*база*/
+html {
+    box-sizing: border-box;
+  }
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.header-logo {
+    display: flex;
+}
+
+img{
+    width: 100px;
+    height: 90px;
+   margin-left: 10px;
+}
+.name{
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    margin-left: 30px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navigation{
+    padding-right: 100px;
+    padding-top: 40px;
+}
+.main{
+    text-align: center;
+   
+}
+.ime{
+ 
+}
+
+.background-image{
+   background-image: url(img/image\ 5.png);
+   background-size: cover;
+   height: 100vh;
+   margin-top: 10px;
+}
+
+.formte{
+   
+}
+.form{
+  text-align: left;
+  padding-top: 389px;
+  font-size: 30px;
+  
+}
+button{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.bbody{
+    border: 2px solid;
+    padding-left: 30px;
+    margin-right: 1100px ;
+    background-color: rgb(27, 27, 27);
+    height: 300px;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
